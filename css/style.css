@@ -1,0 +1,23 @@
+.loading {
+  min-height: 100px;
+}
+
+.loading:after {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  background-image: url('/css/ajax-loader.gif');
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.info-block {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 0.5em;
+}
